@@ -1,0 +1,5 @@
+[console_scripts]
+ejemplo_1_py = primer_py.ejemplo_1:main
+ejemplo_2_py = primer_py.ejemplo_2:main
+publicador_py = primer_py.primer_nodo:main
+subcriptor_py = primer_py.subcriptor:main

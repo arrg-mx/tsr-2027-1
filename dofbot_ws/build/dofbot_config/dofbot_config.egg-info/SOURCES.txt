@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+dofbot_config/__init__.py
+dofbot_config/parameter_srv.py
+dofbot_config.egg-info/PKG-INFO
+dofbot_config.egg-info/SOURCES.txt
+dofbot_config.egg-info/dependency_links.txt
+dofbot_config.egg-info/entry_points.txt
+dofbot_config.egg-info/requires.txt
+dofbot_config.egg-info/top_level.txt
+dofbot_config.egg-info/zip-safe
+resource/dofbot_config

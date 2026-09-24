@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating primer_py.egg-info
+writing primer_py.egg-info/PKG-INFO
+writing dependency_links to primer_py.egg-info/dependency_links.txt
+writing entry points to primer_py.egg-info/entry_points.txt
+writing requirements to primer_py.egg-info/requires.txt
+writing top-level names to primer_py.egg-info/top_level.txt
+writing manifest file 'primer_py.egg-info/SOURCES.txt'
+reading manifest file 'primer_py.egg-info/SOURCES.txt'
+writing manifest file 'primer_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/python3.12/site-packages/primer-py.egg-link (link to .)
+Installing ejemplo_1_py script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/primer_py
+Installing ejemplo_2_py script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/primer_py
+Installing publicador_py script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/primer_py
+Installing subcriptor_py script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/primer_py
+
+Installed /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py
+running symlink_data
+creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/share/ament_index
+creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/share/ament_index/resource_index
+creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/share/ament_index/resource_index/packages
+symbolically linking /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py/resource/primer_py -> /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/share/ament_index/resource_index/packages
+symbolically linking /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py/package.xml -> /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/share/primer_py

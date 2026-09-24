@@ -1,0 +1,8 @@
+setup.py
+dofbot_interfaces/__init__.py
+dofbot_interfaces.egg-info/PKG-INFO
+dofbot_interfaces.egg-info/SOURCES.txt
+dofbot_interfaces.egg-info/dependency_links.txt
+dofbot_interfaces.egg-info/top_level.txt
+dofbot_interfaces/msg/__init__.py
+dofbot_interfaces/msg/_telemetry.py

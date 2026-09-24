@@ -1,0 +1,2 @@
+[console_scripts]
+param_srv = dofbot_config.parameter_srv:init_node

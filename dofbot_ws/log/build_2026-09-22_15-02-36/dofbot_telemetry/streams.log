@@ -1,0 +1,24 @@
+[1.152s] Invoking command in '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry/build --no-deps symlink_data
+[1.450s] running develop
+[1.616s] running egg_info
+[1.616s] creating dofbot_telemetry.egg-info
+[1.635s] writing dofbot_telemetry.egg-info/PKG-INFO
+[1.635s] writing dependency_links to dofbot_telemetry.egg-info/dependency_links.txt
+[1.635s] writing entry points to dofbot_telemetry.egg-info/entry_points.txt
+[1.635s] writing requirements to dofbot_telemetry.egg-info/requires.txt
+[1.636s] writing top-level names to dofbot_telemetry.egg-info/top_level.txt
+[1.636s] writing manifest file 'dofbot_telemetry.egg-info/SOURCES.txt'
+[1.669s] reading manifest file 'dofbot_telemetry.egg-info/SOURCES.txt'
+[1.669s] writing manifest file 'dofbot_telemetry.egg-info/SOURCES.txt'
+[1.685s] running build_ext
+[1.685s] Creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/lib/python3.12/site-packages/dofbot-telemetry.egg-link (link to .)
+[1.686s] Installing telemtry_info script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/lib/dofbot_telemetry
+[1.686s] 
+[1.686s] Installed /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry
+[1.686s] running symlink_data
+[1.686s] creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/share/ament_index
+[1.687s] creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/share/ament_index/resource_index
+[1.687s] creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/share/ament_index/resource_index/packages
+[1.687s] symbolically linking /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry/resource/dofbot_telemetry -> /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/share/ament_index/resource_index/packages
+[1.687s] symbolically linking /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry/package.xml -> /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/share/dofbot_telemetry
+[1.710s] Invoked command in '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry/build --no-deps symlink_data

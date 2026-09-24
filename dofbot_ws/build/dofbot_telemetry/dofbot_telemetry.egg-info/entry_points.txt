@@ -1,0 +1,3 @@
+[console_scripts]
+telemtry_info = dofbot_telemetry.Telemetry:init_node
+telemtry_sub = dofbot_telemetry.TelemetrySubs:init_node

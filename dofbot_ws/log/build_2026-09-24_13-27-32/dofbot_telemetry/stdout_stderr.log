@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing dofbot_telemetry.egg-info/PKG-INFO
+writing dependency_links to dofbot_telemetry.egg-info/dependency_links.txt
+writing entry points to dofbot_telemetry.egg-info/entry_points.txt
+writing requirements to dofbot_telemetry.egg-info/requires.txt
+writing top-level names to dofbot_telemetry.egg-info/top_level.txt
+reading manifest file 'dofbot_telemetry.egg-info/SOURCES.txt'
+writing manifest file 'dofbot_telemetry.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/lib/python3.12/site-packages/dofbot-telemetry.egg-link (link to .)
+Installing telemtry_info script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/lib/dofbot_telemetry
+Installing telemtry_sub script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/lib/dofbot_telemetry
+
+Installed /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry
+running symlink_data

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dofbot-telemetry
+Version: 0.0.0
+Summary: Dofbot Telemetry package
+Maintainer: Felipe Rivas
+Maintainer-email: rivascf@gmail.com
+License: MIT
+Provides-Extra: test

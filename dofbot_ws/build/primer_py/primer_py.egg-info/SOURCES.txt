@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+primer_py/__init__.py
+primer_py/ejemplo_1.py
+primer_py/ejemplo_2.py
+primer_py/primer_nodo.py
+primer_py/subcriptor.py
+primer_py.egg-info/PKG-INFO
+primer_py.egg-info/SOURCES.txt
+primer_py.egg-info/dependency_links.txt
+primer_py.egg-info/entry_points.txt
+primer_py.egg-info/requires.txt
+primer_py.egg-info/top_level.txt
+primer_py.egg-info/zip-safe
+resource/primer_py

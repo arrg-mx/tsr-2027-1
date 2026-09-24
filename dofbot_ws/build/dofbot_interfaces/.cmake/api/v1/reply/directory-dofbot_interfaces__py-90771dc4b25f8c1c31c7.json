@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dofbot_interfaces__py",
+		"source" : "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py"
+	}
+}

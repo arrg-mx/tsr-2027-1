@@ -1,0 +1,335 @@
+[0.000000] (-) TimerEvent: {}
+[0.000315] (-) JobUnselected: {'identifier': 'dofbot_telemetry'}
+[0.000364] (-) JobUnselected: {'identifier': 'primer_cpp'}
+[0.000400] (-) JobUnselected: {'identifier': 'primer_py'}
+[0.000438] (dofbot_interfaces) JobQueued: {'identifier': 'dofbot_interfaces', 'dependencies': OrderedDict()}
+[0.001776] (dofbot_interfaces) JobStarted: {'identifier': 'dofbot_interfaces'}
+[0.019613] (dofbot_interfaces) JobProgress: {'identifier': 'dofbot_interfaces', 'progress': 'cmake'}
+[0.021069] (dofbot_interfaces) JobProgress: {'identifier': 'dofbot_interfaces', 'progress': 'build'}
+[0.021617] (dofbot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arrgusr', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib:/opt/mujoco/mujoco320/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/mujoco/mujoco320/bin', 'HOME': '/home/arrgusr', 'OLDPWD': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/arrgusr/.nvm/versions/node/v22.18.0/bin', 'PYENV_SHELL': 'bash', 'NVM_INC': '/home/arrgusr/.nvm/versions/node/v22.18.0/include/node', 'IP4': '192.168.200.128', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2597', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIT_PS1_SHOWUNTRACKEDFILES': 'true', 'COLORTERM': 'truecolor', 'GIT_PS1_SHOWSTASHSTATE': 'true', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/arrgusr/.nvm', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arrgusr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arrgusr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/arrgusr/.opencode/bin:/opt/ros/jazzy/bin:/home/arrgusr/.nvm/versions/node/v22.18.0/bin:/home/arrgusr/.pyenv/shims:/home/arrgusr/.pyenv/bin:/home/arrgusr/.local/bin:/home/arrgusr/.cargo/bin:/home/arrgusr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim/', 'SESSION_MANAGER': 'local/arrg-vm:@/tmp/.ICE-unix/2432,unix/arrg-vm:/tmp/.ICE-unix/2432', 'GIT_PS1_SHOWDIRTYSTATE': 'true', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7f0069b2_8517_4024_8cd3_70209b26d312', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MUJOCO_PY_MUJOCO_PATH': '/opt/mujoco/mujoco320', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9FTGW3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': 'true', 'NVM_CD_FLAGS': '', 'PYENV_ROOT': '/home/arrgusr/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/python3.12/site-packages:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/lib/python3.12/site-packages:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry:/opt/ros/jazzy'}), 'shell': False}
+[0.099779] (-) TimerEvent: {}
+[0.109640] (dofbot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.200558] (-) TimerEvent: {}
+[0.301091] (-) TimerEvent: {}
+[0.404678] (-) TimerEvent: {}
+[0.435615] (dofbot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.441591] (dofbot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.497252] (dofbot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.504841] (-) TimerEvent: {}
+[0.555209] (dofbot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.567124] (dofbot_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.605582] (-) TimerEvent: {}
+[0.705845] (-) TimerEvent: {}
+[0.806219] (-) TimerEvent: {}
+[0.906766] (-) TimerEvent: {}
+[1.007373] (-) TimerEvent: {}
+[1.108688] (-) TimerEvent: {}
+[1.210019] (-) TimerEvent: {}
+[1.310575] (-) TimerEvent: {}
+[1.411527] (-) TimerEvent: {}
+[1.473224] (dofbot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.511728] (-) TimerEvent: {}
+[1.612165] (-) TimerEvent: {}
+[1.712805] (-) TimerEvent: {}
+[1.813563] (-) TimerEvent: {}
+[1.915725] (-) TimerEvent: {}
+[2.017421] (dofbot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.017602] (-) TimerEvent: {}
+[2.117843] (-) TimerEvent: {}
+[2.219686] (-) TimerEvent: {}
+[2.320052] (-) TimerEvent: {}
+[2.420344] (-) TimerEvent: {}
+[2.523707] (-) TimerEvent: {}
+[2.624298] (-) TimerEvent: {}
+[2.684531] (dofbot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.687480] (dofbot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.724411] (-) TimerEvent: {}
+[2.824816] (-) TimerEvent: {}
+[2.926747] (-) TimerEvent: {}
+[3.027257] (-) TimerEvent: {}
+[3.127723] (-) TimerEvent: {}
+[3.228493] (-) TimerEvent: {}
+[3.318620] (dofbot_interfaces) StdoutLine: {'line': b'-- Found Python3: /home/arrgusr/.pyenv/shims/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.328518] (-) TimerEvent: {}
+[3.429006] (-) TimerEvent: {}
+[3.520867] (dofbot_interfaces) StdoutLine: {'line': b'-- Found Python3: /home/arrgusr/.pyenv/shims/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.529126] (-) TimerEvent: {}
+[3.546557] (dofbot_interfaces) StdoutLine: {'line': b'-- Configuring done (3.4s)\n'}
+[3.629001] (dofbot_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.629195] (-) TimerEvent: {}
+[3.644587] (dofbot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces\n'}
+[3.693544] (dofbot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.694122] (dofbot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[3.729327] (-) TimerEvent: {}
+[3.830617] (-) TimerEvent: {}
+[3.930899] (-) TimerEvent: {}
+[4.032622] (-) TimerEvent: {}
+[4.086214] (dofbot_interfaces) StdoutLine: {'line': b'[  5%] Built target dofbot_interfaces__rosidl_generator_type_description\n'}
+[4.132768] (-) TimerEvent: {}
+[4.156647] (dofbot_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_dofbot_interfaces\n'}
+[4.172528] (dofbot_interfaces) StdoutLine: {'line': b'[  5%] Built target dofbot_interfaces__rs\n'}
+[4.172724] (dofbot_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.203750] (dofbot_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.232883] (-) TimerEvent: {}
+[4.333205] (-) TimerEvent: {}
+[4.434612] (-) TimerEvent: {}
+[4.534915] (-) TimerEvent: {}
+[4.636506] (-) TimerEvent: {}
+[4.691645] (dofbot_interfaces) StdoutLine: {'line': b'[ 11%] Built target dofbot_interfaces__cpp\n'}
+[4.736914] (-) TimerEvent: {}
+[4.774874] (dofbot_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__description.c.o\x1b[0m\n'}
+[4.837674] (-) TimerEvent: {}
+[4.896542] (dofbot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__functions.c.o\x1b[0m\n'}
+[4.938500] (-) TimerEvent: {}
+[4.949989] (dofbot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.c.o\x1b[0m\n'}
+[4.998571] (dofbot_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libdofbot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.039575] (-) TimerEvent: {}
+[5.091800] (dofbot_interfaces) StdoutLine: {'line': b'[ 22%] Built target dofbot_interfaces__rosidl_generator_c\n'}
+[5.108242] (dofbot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.139653] (-) TimerEvent: {}
+[5.158023] (dofbot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.186664] (dofbot_interfaces) StdoutLine: {'line': b'writing dofbot_interfaces.egg-info/PKG-INFO\n'}
+[5.187904] (dofbot_interfaces) StdoutLine: {'line': b'writing dependency_links to dofbot_interfaces.egg-info/dependency_links.txt\n'}
+[5.188211] (dofbot_interfaces) StdoutLine: {'line': b'writing top-level names to dofbot_interfaces.egg-info/top_level.txt\n'}
+[5.240505] (-) TimerEvent: {}
+[5.292482] (dofbot_interfaces) StdoutLine: {'line': b"reading manifest file 'dofbot_interfaces.egg-info/SOURCES.txt'\n"}
+[5.294095] (dofbot_interfaces) StdoutLine: {'line': b"writing manifest file 'dofbot_interfaces.egg-info/SOURCES.txt'\n"}
+[5.329656] (dofbot_interfaces) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_build_dofbot_interfaces_egg\n'}
+[5.340589] (-) TimerEvent: {}
+[5.347419] (dofbot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.440734] (-) TimerEvent: {}
+[5.541140] (-) TimerEvent: {}
+[5.619311] (dofbot_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dofbot_interfaces/msg/detail/telemetry__type_support_c.cpp.o\x1b[0m\n'}
+[5.641248] (-) TimerEvent: {}
+[5.741576] (-) TimerEvent: {}
+[5.841929] (-) TimerEvent: {}
+[5.842116] (dofbot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dofbot_interfaces/msg/detail/telemetry__type_support.c.o\x1b[0m\n'}
+[5.891864] (dofbot_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking C shared library libdofbot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.939544] (dofbot_interfaces) StdoutLine: {'line': b'[ 37%] Built target dofbot_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.942075] (-) TimerEvent: {}
+[5.961556] (dofbot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.042209] (-) TimerEvent: {}
+[6.142511] (-) TimerEvent: {}
+[6.242840] (-) TimerEvent: {}
+[6.282959] (dofbot_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libdofbot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.342975] (-) TimerEvent: {}
+[6.407231] (dofbot_interfaces) StdoutLine: {'line': b'[ 42%] Built target dofbot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.415582] (dofbot_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dofbot_interfaces/msg/telemetry__type_support.cpp.o\x1b[0m\n'}
+[6.421317] (dofbot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.443089] (-) TimerEvent: {}
+[6.490057] (dofbot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libdofbot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.543219] (-) TimerEvent: {}
+[6.546561] (dofbot_interfaces) StdoutLine: {'line': b'[ 51%] Built target dofbot_interfaces__rosidl_typesupport_c\n'}
+[6.566312] (dofbot_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.643321] (-) TimerEvent: {}
+[6.743642] (-) TimerEvent: {}
+[6.844655] (-) TimerEvent: {}
+[6.897395] (dofbot_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dofbot_interfaces/msg/detail/dds_fastrtps/telemetry__type_support.cpp.o\x1b[0m\n'}
+[6.944744] (-) TimerEvent: {}
+[7.020028] (dofbot_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dofbot_interfaces/msg/detail/telemetry__type_support.cpp.o\x1b[0m\n'}
+[7.044867] (-) TimerEvent: {}
+[7.145222] (-) TimerEvent: {}
+[7.245542] (-) TimerEvent: {}
+[7.345924] (-) TimerEvent: {}
+[7.418526] (dofbot_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libdofbot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.446051] (-) TimerEvent: {}
+[7.471713] (dofbot_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libdofbot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.502608] (dofbot_interfaces) StdoutLine: {'line': b'[ 65%] Built target dofbot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.517756] (dofbot_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.546184] (-) TimerEvent: {}
+[7.574593] (dofbot_interfaces) StdoutLine: {'line': b'[ 68%] Built target dofbot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.646281] (-) TimerEvent: {}
+[7.746532] (-) TimerEvent: {}
+[7.846812] (-) TimerEvent: {}
+[7.860397] (dofbot_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp.o\x1b[0m\n'}
+[7.947533] (-) TimerEvent: {}
+[8.047828] (-) TimerEvent: {}
+[8.145095] (dofbot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libdofbot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.147927] (-) TimerEvent: {}
+[8.205044] (dofbot_interfaces) StdoutLine: {'line': b'[ 74%] Built target dofbot_interfaces__rosidl_typesupport_cpp\n'}
+[8.244131] (dofbot_interfaces) StdoutLine: {'line': b'[ 74%] Built target dofbot_interfaces\n'}
+[8.248115] (-) TimerEvent: {}
+[8.286020] (dofbot_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.348227] (-) TimerEvent: {}
+[8.448595] (-) TimerEvent: {}
+[8.548905] (-) TimerEvent: {}
+[8.649635] (-) TimerEvent: {}
+[8.668582] (dofbot_interfaces) StdoutLine: {'line': b'[ 77%] Built target dofbot_interfaces__py\n'}
+[8.709220] (dofbot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dofbot_interfaces/msg/_telemetry_s.c.o\x1b[0m\n'}
+[8.749903] (-) TimerEvent: {}
+[8.852826] (-) TimerEvent: {}
+[8.926231] (dofbot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libdofbot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[8.952938] (-) TimerEvent: {}
+[8.990632] (dofbot_interfaces) StdoutLine: {'line': b'[ 82%] Built target dofbot_interfaces__rosidl_generator_py\n'}
+[9.023273] (dofbot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.023594] (dofbot_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.053058] (-) TimerEvent: {}
+[9.154310] (dofbot_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.154581] (-) TimerEvent: {}
+[9.154714] (dofbot_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.208813] (dofbot_interfaces) StdoutLine: {'line': b'[ 94%] Built target dofbot_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[9.215662] (dofbot_interfaces) StdoutLine: {'line': b'[ 94%] Built target dofbot_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[9.248742] (dofbot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.255488] (-) TimerEvent: {}
+[9.345856] (dofbot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.355591] (-) TimerEvent: {}
+[9.394923] (dofbot_interfaces) StdoutLine: {'line': b'[100%] Built target dofbot_interfaces_s__rosidl_typesupport_c\n'}
+[9.419973] (dofbot_interfaces) CommandEnded: {'returncode': 0}
+[9.420886] (dofbot_interfaces) JobProgress: {'identifier': 'dofbot_interfaces', 'progress': 'install'}
+[9.431578] (dofbot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces'], 'cwd': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arrgusr', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib:/opt/mujoco/mujoco320/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/mujoco/mujoco320/bin', 'HOME': '/home/arrgusr', 'OLDPWD': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/arrgusr/.nvm/versions/node/v22.18.0/bin', 'PYENV_SHELL': 'bash', 'NVM_INC': '/home/arrgusr/.nvm/versions/node/v22.18.0/include/node', 'IP4': '192.168.200.128', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2597', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIT_PS1_SHOWUNTRACKEDFILES': 'true', 'COLORTERM': 'truecolor', 'GIT_PS1_SHOWSTASHSTATE': 'true', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/arrgusr/.nvm', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arrgusr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arrgusr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/arrgusr/.opencode/bin:/opt/ros/jazzy/bin:/home/arrgusr/.nvm/versions/node/v22.18.0/bin:/home/arrgusr/.pyenv/shims:/home/arrgusr/.pyenv/bin:/home/arrgusr/.local/bin:/home/arrgusr/.cargo/bin:/home/arrgusr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim/', 'SESSION_MANAGER': 'local/arrg-vm:@/tmp/.ICE-unix/2432,unix/arrg-vm:/tmp/.ICE-unix/2432', 'GIT_PS1_SHOWDIRTYSTATE': 'true', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7f0069b2_8517_4024_8cd3_70209b26d312', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MUJOCO_PY_MUJOCO_PATH': '/opt/mujoco/mujoco320', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9FTGW3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': 'true', 'NVM_CD_FLAGS': '', 'PYENV_ROOT': '/home/arrgusr/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/python3.12/site-packages:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_telemetry:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry/lib/python3.12/site-packages:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_telemetry:/opt/ros/jazzy'}), 'shell': False}
+[9.441496] (dofbot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.441760] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/ament_index/resource_index/rosidl_interfaces/dofbot_interfaces\n'}
+[9.442591] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/msg/Telemetry.json\n'}
+[9.443783] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces\n'}
+[9.444387] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg\n'}
+[9.445295] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/telemetry.h\n'}
+[9.445376] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.445673] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail\n'}
+[9.446720] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__type_support.h\n'}
+[9.447146] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__struct.h\n'}
+[9.447523] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__type_support.c\n'}
+[9.447969] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__functions.c\n'}
+[9.448470] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__description.c\n'}
+[9.448858] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__functions.h\n'}
+[9.449501] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/environment/library_path.sh\n'}
+[9.449976] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/environment/library_path.dsv\n'}
+[9.450655] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_generator_c.so\n'}
+[9.452295] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.452905] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces\n'}
+[9.453395] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg\n'}
+[9.453746] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.454080] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail\n'}
+[9.454333] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__rosidl_typesupport_fastrtps_c.h\n'}
+[9.454826] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.455465] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.455604] (-) TimerEvent: {}
+[9.457497] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces\n'}
+[9.457636] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg\n'}
+[9.457752] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.457847] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail\n'}
+[9.457926] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__type_support.c\n'}
+[9.458008] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__rosidl_typesupport_introspection_c.h\n'}
+[9.458174] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.458324] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.458465] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_c.so\n'}
+[9.458665] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.458833] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces\n'}
+[9.459037] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg\n'}
+[9.459768] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.459910] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/telemetry.hpp\n'}
+[9.461551] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail\n'}
+[9.461676] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__traits.hpp\n'}
+[9.461776] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__builder.hpp\n'}
+[9.461824] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__struct.hpp\n'}
+[9.461871] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__type_support.hpp\n'}
+[9.461918] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces\n'}
+[9.461964] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg\n'}
+[9.462010] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.462065] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail\n'}
+[9.462113] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/dds_fastrtps\n'}
+[9.462159] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.464507] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.464596] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.464641] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces\n'}
+[9.464684] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg\n'}
+[9.464725] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail\n'}
+[9.464767] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.464819] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/include/dofbot_interfaces/dofbot_interfaces/msg/detail/telemetry__type_support.cpp\n'}
+[9.464860] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.464902] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.465454] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.467261] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.467845] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/environment/pythonpath.sh\n'}
+[9.468472] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/environment/pythonpath.dsv\n'}
+[9.468886] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces-0.0.0-py3.12.egg-info\n'}
+[9.470017] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[9.470831] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[9.472316] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[9.473378] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[9.474615] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces\n'}
+[9.474892] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/__init__.py\n'}
+[9.475074] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.475427] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.475675] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.475978] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.476189] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/msg\n'}
+[9.476274] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/msg/__init__.py\n'}
+[9.476411] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/msg/_telemetry.py\n'}
+[9.476765] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/msg/_telemetry_s.c\n'}
+[9.477518] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.477977] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.555757] (-) TimerEvent: {}
+[9.618013] (dofbot_interfaces) StdoutLine: {'line': b"Listing '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces'...\n"}
+[9.618570] (dofbot_interfaces) StdoutLine: {'line': b"Compiling '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/__init__.py'...\n"}
+[9.618915] (dofbot_interfaces) StdoutLine: {'line': b"Listing '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/msg'...\n"}
+[9.619173] (dofbot_interfaces) StdoutLine: {'line': b"Compiling '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/msg/__init__.py'...\n"}
+[9.619419] (dofbot_interfaces) StdoutLine: {'line': b"Compiling '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/msg/_telemetry.py'...\n"}
+[9.631170] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.633010] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.633498] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.634991] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.635529] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.636796] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/python3.12/site-packages/dofbot_interfaces/dofbot_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[9.637509] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_generator_py.so\n'}
+[9.637916] (dofbot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/lib/libdofbot_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.638136] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/rust\n'}
+[9.639047] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/rust/build.rs\n'}
+[9.639298] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/rust/Cargo.toml\n'}
+[9.639551] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/rust/src\n'}
+[9.640711] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/rust/src/msg.rs\n'}
+[9.641146] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/rust/src/msg\n'}
+[9.642449] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/rust/src/msg/rmw.rs\n'}
+[9.642952] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/rust/src/lib.rs\n'}
+[9.643651] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/msg/Telemetry.idl\n'}
+[9.644232] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/msg/Telemetry.msg\n'}
+[9.644883] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/ament_index/resource_index/package_run_dependencies/dofbot_interfaces\n'}
+[9.646335] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/ament_index/resource_index/parent_prefix_path/dofbot_interfaces\n'}
+[9.647018] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/environment/ament_prefix_path.sh\n'}
+[9.647608] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.648131] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/environment/path.sh\n'}
+[9.648780] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/environment/path.dsv\n'}
+[9.649078] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/local_setup.bash\n'}
+[9.649409] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/local_setup.sh\n'}
+[9.649673] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/local_setup.zsh\n'}
+[9.650043] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/local_setup.dsv\n'}
+[9.650286] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/package.dsv\n'}
+[9.650775] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/ament_index/resource_index/packages/dofbot_interfaces\n'}
+[9.651184] (dofbot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_generator_cExport-noconfig.cmake].\n'}
+[9.651614] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.651893] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.652502] (dofbot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[9.652906] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.653316] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.654166] (dofbot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[9.654336] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.654909] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.655359] (dofbot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[9.655584] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.656203] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.656509] (-) TimerEvent: {}
+[9.656809] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.656964] (dofbot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[9.657056] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.659021] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.660332] (dofbot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[9.660613] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.660789] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.660864] (dofbot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[9.660943] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.661022] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.661094] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.661162] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/export_dofbot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.663702] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.664022] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.664249] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.664494] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.664731] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.664938] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.665274] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.667570] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[9.667845] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfacesConfig.cmake\n'}
+[9.668018] (dofbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/cmake/dofbot_interfacesConfig-version.cmake\n'}
+[9.668166] (dofbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/dofbot_interfaces/share/dofbot_interfaces/package.xml\n'}
+[9.670798] (dofbot_interfaces) CommandEnded: {'returncode': 0}
+[9.705959] (dofbot_interfaces) JobEnded: {'identifier': 'dofbot_interfaces', 'rc': 0}
+[9.706922] (-) EventReactorShutdown: {}

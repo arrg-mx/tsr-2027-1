@@ -1,0 +1,9 @@
+source;share/dofbot_telemetry/hook/pythonpath.ps1
+source;share/dofbot_telemetry/hook/pythonpath.dsv
+source;share/dofbot_telemetry/hook/pythonpath.sh
+source;share/dofbot_telemetry/hook/ament_prefix_path.ps1
+source;share/dofbot_telemetry/hook/ament_prefix_path.dsv
+source;share/dofbot_telemetry/hook/ament_prefix_path.sh
+source;../../build/dofbot_telemetry/share/dofbot_telemetry/hook/pythonpath_develop.ps1
+source;../../build/dofbot_telemetry/share/dofbot_telemetry/hook/pythonpath_develop.dsv
+source;../../build/dofbot_telemetry/share/dofbot_telemetry/hook/pythonpath_develop.sh

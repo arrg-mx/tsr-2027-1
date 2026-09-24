@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+dofbot_telemetry/Telemetry.py
+dofbot_telemetry/TelemetrySubs.py
+dofbot_telemetry/__init__.py
+dofbot_telemetry.egg-info/PKG-INFO
+dofbot_telemetry.egg-info/SOURCES.txt
+dofbot_telemetry.egg-info/dependency_links.txt
+dofbot_telemetry.egg-info/entry_points.txt
+dofbot_telemetry.egg-info/requires.txt
+dofbot_telemetry.egg-info/top_level.txt
+dofbot_telemetry.egg-info/zip-safe
+resource/dofbot_telemetry

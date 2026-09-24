@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.002030] (-) JobUnselected: {'identifier': 'primer_cpp'}
+[0.002223] (primer_py) JobQueued: {'identifier': 'primer_py', 'dependencies': OrderedDict()}
+[0.003933] (primer_py) JobStarted: {'identifier': 'primer_py'}
+[0.100042] (-) TimerEvent: {}
+[0.200331] (-) TimerEvent: {}
+[0.300767] (-) TimerEvent: {}
+[0.401252] (-) TimerEvent: {}
+[0.501590] (-) TimerEvent: {}
+[0.601941] (-) TimerEvent: {}
+[0.702332] (-) TimerEvent: {}
+[0.804075] (-) TimerEvent: {}
+[0.904680] (-) TimerEvent: {}
+[0.984976] (primer_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arrgusr', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/mujoco/mujoco320/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/mujoco/mujoco320/bin', 'HOME': '/home/arrgusr', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/arrgusr/.nvm/versions/node/v22.18.0/bin', 'PYENV_SHELL': 'bash', 'NVM_INC': '/home/arrgusr/.nvm/versions/node/v22.18.0/include/node', 'IP4': '192.168.200.128', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2605', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIT_PS1_SHOWUNTRACKEDFILES': 'true', 'COLORTERM': 'truecolor', 'GIT_PS1_SHOWSTASHSTATE': 'true', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/arrgusr/.nvm', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arrgusr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arrgusr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/arrgusr/.opencode/bin:/opt/ros/jazzy/bin:/home/arrgusr/.nvm/versions/node/v22.18.0/bin:/home/arrgusr/.pyenv/shims:/home/arrgusr/.pyenv/bin:/home/arrgusr/.local/bin:/home/arrgusr/.cargo/bin:/home/arrgusr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim/', 'SESSION_MANAGER': 'local/arrg-vm:@/tmp/.ICE-unix/2432,unix/arrg-vm:/tmp/.ICE-unix/2432', 'GIT_PS1_SHOWDIRTYSTATE': 'true', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8fe6966d_ecad_4cb9_b45a_a5bfab9bb2cc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MUJOCO_PY_MUJOCO_PATH': '/opt/mujoco/mujoco320', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BDM7V3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': 'true', 'NVM_CD_FLAGS': '', 'PYENV_ROOT': '/home/arrgusr/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.004942] (-) TimerEvent: {}
+[1.105281] (-) TimerEvent: {}
+[1.205824] (-) TimerEvent: {}
+[1.306344] (-) TimerEvent: {}
+[1.362360] (primer_py) StdoutLine: {'line': b'running develop\n'}
+[1.406557] (-) TimerEvent: {}
+[1.507056] (-) TimerEvent: {}
+[1.579677] (primer_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.579928] (primer_py) StdoutLine: {'line': b'creating primer_py.egg-info\n'}
+[1.603373] (primer_py) StdoutLine: {'line': b'writing primer_py.egg-info/PKG-INFO\n'}
+[1.603960] (primer_py) StdoutLine: {'line': b'writing dependency_links to primer_py.egg-info/dependency_links.txt\n'}
+[1.604226] (primer_py) StdoutLine: {'line': b'writing entry points to primer_py.egg-info/entry_points.txt\n'}
+[1.604388] (primer_py) StdoutLine: {'line': b'writing requirements to primer_py.egg-info/requires.txt\n'}
+[1.604496] (primer_py) StdoutLine: {'line': b'writing top-level names to primer_py.egg-info/top_level.txt\n'}
+[1.604582] (primer_py) StdoutLine: {'line': b"writing manifest file 'primer_py.egg-info/SOURCES.txt'\n"}
+[1.607272] (-) TimerEvent: {}
+[1.668218] (primer_py) StdoutLine: {'line': b"reading manifest file 'primer_py.egg-info/SOURCES.txt'\n"}
+[1.668867] (primer_py) StdoutLine: {'line': b"writing manifest file 'primer_py.egg-info/SOURCES.txt'\n"}
+[1.692804] (primer_py) StdoutLine: {'line': b'running build_ext\n'}
+[1.693156] (primer_py) StdoutLine: {'line': b'Creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/python3.12/site-packages/primer-py.egg-link (link to .)\n'}
+[1.694500] (primer_py) StdoutLine: {'line': b'Installing ejemplo_1_py script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/primer_py\n'}
+[1.695017] (primer_py) StdoutLine: {'line': b'Installing ejemplo_2_py script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/primer_py\n'}
+[1.695542] (primer_py) StdoutLine: {'line': b'Installing publicador_py script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/primer_py\n'}
+[1.695820] (primer_py) StdoutLine: {'line': b'Installing subcriptor_py script to /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/lib/primer_py\n'}
+[1.696237] (primer_py) StdoutLine: {'line': b'\n'}
+[1.696437] (primer_py) StdoutLine: {'line': b'Installed /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py\n'}
+[1.696737] (primer_py) StdoutLine: {'line': b'running symlink_data\n'}
+[1.697007] (primer_py) StdoutLine: {'line': b'creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/share/ament_index\n'}
+[1.697175] (primer_py) StdoutLine: {'line': b'creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/share/ament_index/resource_index\n'}
+[1.697364] (primer_py) StdoutLine: {'line': b'creating /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/share/ament_index/resource_index/packages\n'}
+[1.697519] (primer_py) StdoutLine: {'line': b'symbolically linking /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py/resource/primer_py -> /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/share/ament_index/resource_index/packages\n'}
+[1.697662] (primer_py) StdoutLine: {'line': b'symbolically linking /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/primer_py/package.xml -> /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/install/primer_py/share/primer_py\n'}
+[1.707560] (-) TimerEvent: {}
+[1.743754] (primer_py) CommandEnded: {'returncode': 0}
+[1.752927] (primer_py) JobEnded: {'identifier': 'primer_py', 'rc': 0}
+[1.755756] (-) EventReactorShutdown: {}

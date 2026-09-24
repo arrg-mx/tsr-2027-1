@@ -1,0 +1,6 @@
+{
+  "package_name": "dofbot_interfaces",
+  "non_idl_tuples": [
+    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces:msg/Telemetry.msg"
+  ]
+}

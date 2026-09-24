@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.001312] (-) JobUnselected: {'identifier': 'dofbot_interfaces'}
+[0.001357] (-) JobUnselected: {'identifier': 'dofbot_telemetry'}
+[0.001383] (-) JobUnselected: {'identifier': 'primer_cpp'}
+[0.003400] (-) JobUnselected: {'identifier': 'primer_py'}
+[0.003461] (-) EventReactorShutdown: {}

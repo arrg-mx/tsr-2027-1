@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2e03d808b84927e75937.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "dofbot_interfaces__py",
+					"jsonFile" : "directory-dofbot_interfaces__py-90771dc4b25f8c1c31c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "dofbot_interfaces__rs",
+					"jsonFile" : "directory-dofbot_interfaces__rs-a01affc8a68b4c4564d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "dofbot_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dofbot_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dofbot_interfaces_egg-acdf760a281ea1326523.json",
+					"name" : "ament_cmake_python_build_dofbot_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dofbot_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dofbot_interfaces-6f6461d750319d65d4b6.json",
+					"name" : "ament_cmake_python_copy_dofbot_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces-f8096226106f68fde6e7.json",
+					"name" : "dofbot_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces__cpp-8f9e8cb88338da4c7259.json",
+					"name" : "dofbot_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dofbot_interfaces__py::@a3b27cf5e9e1ea90ce72",
+					"jsonFile" : "target-dofbot_interfaces__py-d345302470bb2de19c17.json",
+					"name" : "dofbot_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces__rosidl_generator_c-c7e6ecfa7313046ed145.json",
+					"name" : "dofbot_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces__rosidl_generator_py-bd2da46727146e5057a6.json",
+					"name" : "dofbot_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces__rosidl_generator_type_description-ca27143aaf1cebd34e56.json",
+					"name" : "dofbot_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces__rosidl_typesupport_c-3e0864c068c04753eec4.json",
+					"name" : "dofbot_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces__rosidl_typesupport_cpp-1da3e3c41e313300907e.json",
+					"name" : "dofbot_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces__rosidl_typesupport_fastrtps_c-c0b06bdb73b976c0b7bb.json",
+					"name" : "dofbot_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces__rosidl_typesupport_fastrtps_cpp-04c990db78893c190635.json",
+					"name" : "dofbot_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces__rosidl_typesupport_introspection_c-8e70988f88e906742886.json",
+					"name" : "dofbot_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces__rosidl_typesupport_introspection_cpp-48e56b564c3ad931fe8e.json",
+					"name" : "dofbot_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "dofbot_interfaces__rs::@821b8eecf062b05b1461",
+					"jsonFile" : "target-dofbot_interfaces__rs-3bd05431a5520b965193.json",
+					"name" : "dofbot_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces_s__rosidl_typesupport_c-49f1b419f617b38201af.json",
+					"name" : "dofbot_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces_s__rosidl_typesupport_fastrtps_c-b00b700984439ed91acb.json",
+					"name" : "dofbot_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces_s__rosidl_typesupport_introspection_c-3b0d04fd981381a9a4d0.json",
+					"name" : "dofbot_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dofbot_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dofbot_interfaces_uninstall-0db62d92302f5168ad51.json",
+					"name" : "dofbot_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-123d1bf1f516a9e99a85.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces",
+		"source" : "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
