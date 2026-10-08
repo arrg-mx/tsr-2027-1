@@ -1,20 +1,21 @@
-ip_address: 192.168.200.128
-joint_names:
-- base_joint
-- arm_joint_1
-- arm_joint_2
-- arm_joint_3
-- arm_joint_4
-- arm_joint_5
-joint_values:
-- 0.0
-- 0.0
-- 0.0
-- 0.0
-- 0.0
-- 0.0
-robot_name: VIRTUAL
-time_period: 0.01
-vel_ang: 0.15
-vel_lin: 0.20
-
+/**:
+  ros__parameters:
+    ip_address: 192.168.200.128
+    joint_names:
+      - base_joint
+      - arm_joint_1
+      - arm_joint_2
+      - arm_joint_3
+      - arm_joint_4
+      - arm_joint_5
+    joint_values:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    robot_name: VIRTUAL
+    time_period: 0.01
+    vel_ang: 0.15
+    vel_lin: 0.20
