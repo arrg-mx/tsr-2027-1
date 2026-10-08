@@ -17,6 +17,7 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   # Aqui se colocan los archivos de descripcion de los mensajes a generar
   "msg/Telemetry.msg"
+  "srv/GetStatus.srv"
   # Dependenias de otros mensajes que esten incluidos en el mensaje
   #  personalizado a generar
   DEPENDENCIES geometry_msgs

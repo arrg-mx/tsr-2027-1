@@ -1,0 +1,13 @@
+# Descriptor del mensaje del servicio para obtener el estado del robot
+
+# Contenido de la peticion (request) del servicio
+bool is_robot_active
+
+---
+
+# Contenido de la respuesta (response) del servicio
+# Estructura del mensaje de respuesta del servidor
+bool is_active 
+# Banderas del resultado del proceso
+bool success
+string string_status_message
