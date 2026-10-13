@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dofbot_interfaces/msg/detail/telemetry__functions.h"
-#include "dofbot_interfaces/msg/detail/telemetry__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "dofbot_interfaces/msg/detail/telemetry__type_support.h"
+#include "dofbot_interfaces/msg/detail/telemetry__struct.h"
+#include "dofbot_interfaces/msg/detail/telemetry__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

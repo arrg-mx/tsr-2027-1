@@ -67,15 +67,21 @@ include CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/comp
 include CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/dofbot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/dofbot_interfaces/msg/Telemetry.json
+CMakeFiles/dofbot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/dofbot_interfaces/srv/GetStatus.json
 
 rosidl_generator_type_description/dofbot_interfaces/msg/Telemetry.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/dofbot_interfaces/msg/Telemetry.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/dofbot_interfaces/msg/Telemetry.json: rosidl_adapter/dofbot_interfaces/msg/Telemetry.idl
+rosidl_generator_type_description/dofbot_interfaces/msg/Telemetry.json: rosidl_adapter/dofbot_interfaces/srv/GetStatus.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/home/arrgusr/.pyenv/shims/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/dofbot_interfaces/srv/GetStatus.json: rosidl_generator_type_description/dofbot_interfaces/msg/Telemetry.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/dofbot_interfaces/srv/GetStatus.json
+
 dofbot_interfaces__rosidl_generator_type_description: CMakeFiles/dofbot_interfaces__rosidl_generator_type_description
 dofbot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/dofbot_interfaces/msg/Telemetry.json
+dofbot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/dofbot_interfaces/srv/GetStatus.json
 dofbot_interfaces__rosidl_generator_type_description: CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/build.make
 .PHONY : dofbot_interfaces__rosidl_generator_type_description
 

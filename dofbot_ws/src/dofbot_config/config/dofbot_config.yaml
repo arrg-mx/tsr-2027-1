@@ -1,5 +1,7 @@
+# /**: Es un comodín (wildcard) que permite que cualquier nodo cargue estos parámetros. 
+# Si es necsario que solo un nodo específico los use, se debe cambiar /** por el nombre de tu nodo (por ejemplo, /nombre_nodo)
 /**:
-  ros__parameters:
+  ros__parameters: #ros__parameters: Es la sección obligatoria donde ROS 2 busca las variables.
     ip_address: 192.168.200.128
     joint_names:
       - base_joint

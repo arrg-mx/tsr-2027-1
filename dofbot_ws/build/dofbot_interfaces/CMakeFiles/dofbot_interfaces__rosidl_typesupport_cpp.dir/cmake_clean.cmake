@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp.o"
   "CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp.o.d"
+  "CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o"
+  "CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o.d"
   "libdofbot_interfaces__rosidl_typesupport_cpp.pdb"
   "libdofbot_interfaces__rosidl_typesupport_cpp.so"
   "rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp"
+  "rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

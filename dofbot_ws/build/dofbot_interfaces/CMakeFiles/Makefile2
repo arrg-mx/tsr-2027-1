@@ -195,15 +195,15 @@ CMakeFiles/dofbot_interfaces_uninstall.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/dofbot_interfaces.dir/all: dofbot_interfaces__rs/CMakeFiles/dofbot_interfaces__rs.dir/all
+CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/all
+CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__cpp.dir/all
 CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all
 CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/all
-CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/all
-CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
-CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces.dir/build.make CMakeFiles/dofbot_interfaces.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces.dir/build.make CMakeFiles/dofbot_interfaces.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num= "Built target dofbot_interfaces"
@@ -211,7 +211,7 @@ CMakeFiles/dofbot_interfaces.dir/all: CMakeFiles/dofbot_interfaces__rosidl_types
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces.dir/rule
@@ -232,7 +232,7 @@ CMakeFiles/dofbot_interfaces.dir/clean:
 CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=10 "Built target dofbot_interfaces__rosidl_generator_type_description"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=14 "Built target dofbot_interfaces__rosidl_generator_type_description"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/all
 
 # Build rule for subdir invocation for target.
@@ -258,12 +258,12 @@ CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/clean:
 CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_type_description.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=3,4,5,6,7 "Built target dofbot_interfaces__rosidl_generator_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target dofbot_interfaces__rosidl_generator_c"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rule
@@ -284,12 +284,12 @@ CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/clean:
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=17,18,19 "Built target dofbot_interfaces__rosidl_typesupport_fastrtps_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=23,24,25,26 "Built target dofbot_interfaces__rosidl_typesupport_fastrtps_c"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/rule
@@ -310,12 +310,12 @@ CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/clean:
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=23,24,25 "Built target dofbot_interfaces__rosidl_typesupport_introspection_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=31,32,33,34 "Built target dofbot_interfaces__rosidl_typesupport_introspection_c"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/rule
@@ -336,12 +336,12 @@ CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/clean:
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=11,12,13 "Built target dofbot_interfaces__rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=15,16,17,18 "Built target dofbot_interfaces__rosidl_typesupport_c"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/rule
@@ -385,16 +385,16 @@ CMakeFiles/dofbot_interfaces__cpp.dir/clean:
 # Target rules for target CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir
 
 # All Build rule for target.
-CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all: CMakeFiles/dofbot_interfaces__cpp.dir/all
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all: CMakeFiles/dofbot_interfaces__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=20,21,22 "Built target dofbot_interfaces__rosidl_typesupport_fastrtps_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=27,28,29,30 "Built target dofbot_interfaces__rosidl_typesupport_fastrtps_cpp"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rule
@@ -412,16 +412,16 @@ CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/clean:
 # Target rules for target CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir
 
 # All Build rule for target.
-CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/dofbot_interfaces__cpp.dir/all
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/dofbot_interfaces__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=26,27,28 "Built target dofbot_interfaces__rosidl_typesupport_introspection_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=35,36,37,38 "Built target dofbot_interfaces__rosidl_typesupport_introspection_cpp"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rule
@@ -439,16 +439,16 @@ CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_cpp.dir/clean:
 # Target rules for target CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir
 
 # All Build rule for target.
-CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/all: CMakeFiles/dofbot_interfaces__cpp.dir/all
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/all: CMakeFiles/dofbot_interfaces__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=14,15,16 "Built target dofbot_interfaces__rosidl_typesupport_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=19,20,21,22 "Built target dofbot_interfaces__rosidl_typesupport_cpp"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rule
@@ -519,16 +519,16 @@ CMakeFiles/ament_cmake_python_build_dofbot_interfaces_egg.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/all: dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/all
-CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=8,9 "Built target dofbot_interfaces__rosidl_generator_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=11,12,13 "Built target dofbot_interfaces__rosidl_generator_py"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 39
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/rule
@@ -546,19 +546,19 @@ CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir
 
 # All Build rule for target.
-CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/all
-CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/all
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=32,33 "Built target dofbot_interfaces_s__rosidl_typesupport_fastrtps_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=42,43 "Built target dofbot_interfaces_s__rosidl_typesupport_fastrtps_c"
 .PHONY : CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rule
@@ -576,19 +576,19 @@ CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/clean:
 # Target rules for target CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir
 
 # All Build rule for target.
+CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/all
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/all: dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/all
+CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all
-CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/all
-CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=34,35 "Built target dofbot_interfaces_s__rosidl_typesupport_introspection_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=44,45 "Built target dofbot_interfaces_s__rosidl_typesupport_introspection_c"
 .PHONY : CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/rule
@@ -606,18 +606,18 @@ CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_introspection_c.dir/clean:
 # Target rules for target CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir
 
 # All Build rule for target.
-CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/all: dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/all
-CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/all: dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/all
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/dofbot_interfaces__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/build.make CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/build.make CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=30,31 "Built target dofbot_interfaces_s__rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=40,41 "Built target dofbot_interfaces_s__rosidl_typesupport_c"
 .PHONY : CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/dofbot_interfaces_s__rosidl_typesupport_c.dir/rule
@@ -643,7 +643,7 @@ dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/all: CMakeFiles/dofbo
 
 # Build rule for subdir invocation for target.
 dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles 0
 .PHONY : dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/rule
@@ -664,7 +664,7 @@ dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/clean:
 dofbot_interfaces__rs/CMakeFiles/dofbot_interfaces__rs.dir/all:
 	$(MAKE) $(MAKESILENT) -f /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__rs/CMakeFiles/dofbot_interfaces__rs.dir/build.make /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__rs/CMakeFiles/dofbot_interfaces__rs.dir/depend
 	$(MAKE) $(MAKESILENT) -f /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__rs/CMakeFiles/dofbot_interfaces__rs.dir/build.make /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__rs/CMakeFiles/dofbot_interfaces__rs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=29 "Built target dofbot_interfaces__rs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=39 "Built target dofbot_interfaces__rs"
 .PHONY : dofbot_interfaces__rs/CMakeFiles/dofbot_interfaces__rs.dir/all
 
 # Build rule for subdir invocation for target.

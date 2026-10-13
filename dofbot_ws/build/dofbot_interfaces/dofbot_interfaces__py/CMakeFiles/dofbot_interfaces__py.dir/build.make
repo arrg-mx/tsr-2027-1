@@ -70,8 +70,11 @@ include /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbo
 /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_c.c
 /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/msg/_telemetry.py
+/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/srv/_get_status.py
 /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/msg/__init__.py
+/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/srv/__init__.py
 /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/msg/_telemetry_s.c
+/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/srv/_get_status_s.c
 
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,7 @@ rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dofbot_interfaces/msg/Telemetry.idl
+rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dofbot_interfaces/srv/GetStatus.idl
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -150,6 +154,9 @@ rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py && /home/arrgusr/.pyenv/shims/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -162,11 +169,20 @@ rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport
 rosidl_generator_py/dofbot_interfaces/msg/_telemetry.py: rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dofbot_interfaces/msg/_telemetry.py
 
+rosidl_generator_py/dofbot_interfaces/srv/_get_status.py: rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dofbot_interfaces/srv/_get_status.py
+
 rosidl_generator_py/dofbot_interfaces/msg/__init__.py: rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dofbot_interfaces/msg/__init__.py
 
+rosidl_generator_py/dofbot_interfaces/srv/__init__.py: rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dofbot_interfaces/srv/__init__.py
+
 rosidl_generator_py/dofbot_interfaces/msg/_telemetry_s.c: rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dofbot_interfaces/msg/_telemetry_s.c
+
+rosidl_generator_py/dofbot_interfaces/srv/_get_status_s.c: rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dofbot_interfaces/srv/_get_status_s.c
 
 dofbot_interfaces__py: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py
 dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_c.c
@@ -175,6 +191,9 @@ dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_
 dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/msg/__init__.py
 dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/msg/_telemetry.py
 dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/msg/_telemetry_s.c
+dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/srv/__init__.py
+dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/srv/_get_status.py
+dofbot_interfaces__py: rosidl_generator_py/dofbot_interfaces/srv/_get_status_s.c
 dofbot_interfaces__py: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__py/CMakeFiles/dofbot_interfaces__py.dir/build.make
 .PHONY : dofbot_interfaces__py
 

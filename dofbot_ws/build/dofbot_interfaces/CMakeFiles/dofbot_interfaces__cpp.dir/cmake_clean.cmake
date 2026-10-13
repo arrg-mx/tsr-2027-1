@@ -6,6 +6,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/dofbot_interfaces/msg/detail/telemetry__type_support.hpp"
   "rosidl_generator_cpp/dofbot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp"
   "rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp"
+  "rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__builder.hpp"
+  "rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__struct.hpp"
+  "rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__traits.hpp"
+  "rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__type_support.hpp"
+  "rosidl_generator_cpp/dofbot_interfaces/srv/get_status.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

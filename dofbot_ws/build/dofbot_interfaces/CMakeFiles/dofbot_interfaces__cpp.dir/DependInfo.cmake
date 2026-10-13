@@ -17,6 +17,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/detail/telemetry__traits.hpp" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp"
   "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/detail/telemetry__type_support.hpp" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp"
   "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp"
+  "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__builder.hpp" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp"
+  "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__struct.hpp" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp"
+  "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__traits.hpp" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp"
+  "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__type_support.hpp" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp"
+  "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/srv/get_status.hpp" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp"
   )
 
 

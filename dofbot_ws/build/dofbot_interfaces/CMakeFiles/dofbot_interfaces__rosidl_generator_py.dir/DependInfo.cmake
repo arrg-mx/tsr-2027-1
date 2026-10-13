@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/msg/_telemetry_s.c" "CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dofbot_interfaces/msg/_telemetry_s.c.o" "gcc" "CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dofbot_interfaces/msg/_telemetry_s.c.o.d"
+  "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/srv/_get_status_s.c" "CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dofbot_interfaces/srv/_get_status_s.c.o" "gcc" "CMakeFiles/dofbot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dofbot_interfaces/srv/_get_status_s.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

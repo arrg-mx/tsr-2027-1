@@ -89,6 +89,7 @@ rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/rosid
 rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
 rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: rosidl_adapter/dofbot_interfaces/msg/Telemetry.idl
+rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: rosidl_adapter/dofbot_interfaces/srv/GetStatus.idl
 rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -152,6 +153,9 @@ rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/std_m
 rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/dofbot_interfaces/msg/telemetry.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/home/arrgusr/.pyenv/shims/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c__arguments.json
 
@@ -164,6 +168,18 @@ rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__struct.h: rosidl_gene
 rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.h: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.h
 
+rosidl_generator_c/dofbot_interfaces/srv/get_status.h: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dofbot_interfaces/srv/get_status.h
+
+rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.h: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.h
+
+rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__struct.h: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__struct.h
+
+rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.h: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.h
+
 rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__description.c: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__description.c
 
@@ -172,6 +188,15 @@ rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__functions.c: rosidl_g
 
 rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.c: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.c
+
+rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c
+
+rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c
+
+rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c
 
 CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__description.c.o: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__description.c.o: rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__description.c
@@ -215,11 +240,56 @@ CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_i
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.c -o CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.c.s
 
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.o: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.o: rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.o: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.o -MF CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.o.d -o CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.o -c /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c
+
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c > CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.i
+
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c -o CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.s
+
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.o: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.o: rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.o: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.o -MF CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.o.d -o CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.o -c /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c
+
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c > CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.i
+
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c -o CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.s
+
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.o: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.o: rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.o: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.o -MF CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.o.d -o CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.o -c /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c
+
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c > CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.i
+
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c -o CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.s
+
 # Object files for target dofbot_interfaces__rosidl_generator_c
 dofbot_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__description.c.o" \
 "CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__functions.c.o" \
-"CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.c.o"
+"CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.c.o" \
+"CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.o" \
+"CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.o" \
+"CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.o"
 
 # External object files for target dofbot_interfaces__rosidl_generator_c
 dofbot_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -227,14 +297,18 @@ dofbot_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 libdofbot_interfaces__rosidl_generator_c.so: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__description.c.o
 libdofbot_interfaces__rosidl_generator_c.so: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__functions.c.o
 libdofbot_interfaces__rosidl_generator_c.so: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.c.o
+libdofbot_interfaces__rosidl_generator_c.so: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c.o
+libdofbot_interfaces__rosidl_generator_c.so: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c.o
+libdofbot_interfaces__rosidl_generator_c.so: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c.o
 libdofbot_interfaces__rosidl_generator_c.so: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/build.make
 libdofbot_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 libdofbot_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
+libdofbot_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 libdofbot_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libdofbot_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libdofbot_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 libdofbot_interfaces__rosidl_generator_c.so: CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libdofbot_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libdofbot_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -252,6 +326,13 @@ CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/
 CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.c
 CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dofbot_interfaces/msg/detail/telemetry__type_support.h
 CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dofbot_interfaces/msg/telemetry.h
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__description.c
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.c
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__functions.h
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__struct.h
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.c
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dofbot_interfaces/srv/detail/get_status__type_support.h
+CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dofbot_interfaces/srv/get_status.h
 	cd /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_generator_c.dir/depend
 

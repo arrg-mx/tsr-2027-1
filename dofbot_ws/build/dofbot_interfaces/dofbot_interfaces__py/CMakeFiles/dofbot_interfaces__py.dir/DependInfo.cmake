@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/msg/__init__.py" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/msg/_telemetry.py" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/msg/_telemetry_s.c" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/srv/__init__.py" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/srv/_get_status.py" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/srv/_get_status_s.c" "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_py/dofbot_interfaces/_dofbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

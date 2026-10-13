@@ -3,10 +3,12 @@
   "output_dir": "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_c/dofbot_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces:msg/Telemetry.idl"
+    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces:msg/Telemetry.idl",
+    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces:srv/GetStatus.idl"
   ],
   "ros_interface_files": [
-    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces/msg/Telemetry.msg"
+    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces/msg/Telemetry.msg",
+    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces/srv/GetStatus.srv"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -71,7 +73,10 @@
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt64.idl",
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl",
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt8.idl",
-    "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl"
+    "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -94,6 +99,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces/msg/Telemetry.idl",
+    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces/srv/GetStatus.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -156,9 +162,13 @@
     "/opt/ros/jazzy/share/std_msgs/msg/UInt64.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/UInt8.idl",
-    "/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl"
+    "/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
-    "msg/Telemetry.idl:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_type_description/dofbot_interfaces/msg/Telemetry.json"
+    "msg/Telemetry.idl:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_type_description/dofbot_interfaces/msg/Telemetry.json",
+    "srv/GetStatus.idl:/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_type_description/dofbot_interfaces/srv/GetStatus.json"
   ]
 }

@@ -1,1 +1,2 @@
 /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces:msg/Telemetry.idl
+/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces:srv/GetStatus.idl

@@ -3,7 +3,8 @@
   "output_dir": "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_typesupport_cpp/dofbot_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces:msg/Telemetry.idl"
+    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces:msg/Telemetry.idl",
+    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces:srv/GetStatus.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -68,7 +69,10 @@
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt64.idl",
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl",
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt8.idl",
-    "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl"
+    "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
@@ -78,6 +82,7 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
     "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces/msg/Telemetry.idl",
+    "/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_adapter/dofbot_interfaces/srv/GetStatus.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -140,6 +145,9 @@
     "/opt/ros/jazzy/share/std_msgs/msg/UInt64.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/UInt8.idl",
-    "/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl"
+    "/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ]
 }

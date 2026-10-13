@@ -67,6 +67,7 @@ include CMakeFiles/dofbot_interfaces.dir/compiler_depend.make
 include CMakeFiles/dofbot_interfaces.dir/progress.make
 
 CMakeFiles/dofbot_interfaces: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces/msg/Telemetry.msg
+CMakeFiles/dofbot_interfaces: /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces/srv/GetStatus.srv
 CMakeFiles/dofbot_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/dofbot_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/dofbot_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -100,6 +101,7 @@ CMakeFiles/dofbot_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/VelocitySta
 CMakeFiles/dofbot_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl
 CMakeFiles/dofbot_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/dofbot_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
+CMakeFiles/dofbot_interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 
 dofbot_interfaces: CMakeFiles/dofbot_interfaces
 dofbot_interfaces: CMakeFiles/dofbot_interfaces.dir/build.make

@@ -86,6 +86,7 @@ rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosi
 rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
 rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: rosidl_adapter/dofbot_interfaces/msg/Telemetry.idl
+rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: rosidl_adapter/dofbot_interfaces/srv/GetStatus.idl
 rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -149,6 +150,9 @@ rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/std_
 rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_rs/dofbot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
 	cd /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/dofbot_interfaces__rs && /home/arrgusr/.pyenv/shims/python3 /opt/ros/jazzy/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 

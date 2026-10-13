@@ -71,6 +71,11 @@ CMakeFiles/dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/msg/de
 CMakeFiles/dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/msg/detail/telemetry__struct.hpp
 CMakeFiles/dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/msg/detail/telemetry__traits.hpp
 CMakeFiles/dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/msg/detail/telemetry__type_support.hpp
+CMakeFiles/dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/srv/get_status.hpp
+CMakeFiles/dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__builder.hpp
+CMakeFiles/dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__struct.hpp
+CMakeFiles/dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__traits.hpp
+CMakeFiles/dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__type_support.hpp
 CMakeFiles/dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -93,6 +98,7 @@ rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/r
 rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: rosidl_adapter/dofbot_interfaces/msg/Telemetry.idl
+rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: rosidl_adapter/dofbot_interfaces/srv/GetStatus.idl
 rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -156,6 +162,9 @@ rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/s
 rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/home/arrgusr/.pyenv/shims/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -171,6 +180,21 @@ rosidl_generator_cpp/dofbot_interfaces/msg/detail/telemetry__traits.hpp: rosidl_
 rosidl_generator_cpp/dofbot_interfaces/msg/detail/telemetry__type_support.hpp: rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dofbot_interfaces/msg/detail/telemetry__type_support.hpp
 
+rosidl_generator_cpp/dofbot_interfaces/srv/get_status.hpp: rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dofbot_interfaces/srv/get_status.hpp
+
+rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__builder.hpp: rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__builder.hpp
+
+rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__struct.hpp: rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__struct.hpp
+
+rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__traits.hpp: rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__traits.hpp
+
+rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__type_support.hpp: rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__type_support.hpp
+
 rosidl_generator_cpp/dofbot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dofbot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
@@ -181,6 +205,11 @@ dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/msg/detail/teleme
 dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/msg/detail/telemetry__type_support.hpp
 dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/msg/telemetry.hpp
+dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__builder.hpp
+dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__struct.hpp
+dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__traits.hpp
+dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/srv/detail/get_status__type_support.hpp
+dofbot_interfaces__cpp: rosidl_generator_cpp/dofbot_interfaces/srv/get_status.hpp
 dofbot_interfaces__cpp: CMakeFiles/dofbot_interfaces__cpp.dir/build.make
 .PHONY : dofbot_interfaces__cpp
 

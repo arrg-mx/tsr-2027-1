@@ -76,6 +76,7 @@ rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/r
 rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em
 rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: rosidl_adapter/dofbot_interfaces/msg/Telemetry.idl
+rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: rosidl_adapter/dofbot_interfaces/srv/GetStatus.idl
 rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -139,8 +140,14 @@ rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/r
 rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
 	/home/arrgusr/.pyenv/shims/python3 /opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+
+rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp: rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp
 
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp.o: CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp.o: rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp
@@ -156,28 +163,46 @@ CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp -o CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp.s
 
+CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o: CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o: rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp
+CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o: CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o -MF CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o.d -o CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o -c /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp
+
+CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp > CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.i
+
+CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp -o CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.s
+
 # Object files for target dofbot_interfaces__rosidl_typesupport_cpp
 dofbot_interfaces__rosidl_typesupport_cpp_OBJECTS = \
-"CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp.o"
+"CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp.o" \
+"CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o"
 
 # External object files for target dofbot_interfaces__rosidl_typesupport_cpp
 dofbot_interfaces__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
 
 libdofbot_interfaces__rosidl_typesupport_cpp.so: CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp.o
+libdofbot_interfaces__rosidl_typesupport_cpp.so: CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp.o
 libdofbot_interfaces__rosidl_typesupport_cpp.so: CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/build.make
 libdofbot_interfaces__rosidl_typesupport_cpp.so: libdofbot_interfaces__rosidl_generator_c.so
 libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
+libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
+libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
-libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
 libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_typesupport_c.so
+libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libdofbot_interfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librcutils.so
 libdofbot_interfaces__rosidl_typesupport_cpp.so: CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libdofbot_interfaces__rosidl_typesupport_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libdofbot_interfaces__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +214,7 @@ CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/clean:
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/clean
 
 CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/dofbot_interfaces/msg/telemetry__type_support.cpp
+CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/dofbot_interfaces/srv/get_status__type_support.cpp
 	cd /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/src/dofbot_interfaces /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces /home/arrgusr/ROS2Dev/tsr-2027-1/dofbot_ws/build/dofbot_interfaces/CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dofbot_interfaces__rosidl_typesupport_cpp.dir/depend
 
