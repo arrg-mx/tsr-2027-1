@@ -1,0 +1,54 @@
+[
+  {
+    "cpu": 3.69194,
+    "time": "13:51:17",
+    "ram": {
+      "available": 2.5,
+      "total": 3.9
+    },
+    "disk": {
+      "available": 34,
+      "total": 59
+    },
+    "ip": "172.16.8.136"
+  },
+  {
+    "cpu": 3.69129,
+    "time": "13:51:19",
+    "ram": {
+      "available": 2.5,
+      "total": 3.9
+    },
+    "disk": {
+      "available": 34,
+      "total": 59
+    },
+    "ip": "172.16.8.136"
+  },
+  {
+    "cpu": 3.69049,
+    "time": "13:51:21",
+    "ram": {
+      "available": 2.5,
+      "total": 3.9
+    },
+    "disk": {
+      "available": 34,
+      "total": 59
+    },
+    "ip": "172.16.8.136"
+  },
+  {
+    "cpu": 3.68992,
+    "time": "13:51:23",
+    "ram": {
+      "available": 2.5,
+      "total": 3.9
+    },
+    "disk": {
+      "available": 34,
+      "total": 59
+    },
+    "ip": "172.16.8.136"
+  }
+]
