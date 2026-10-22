@@ -21,3 +21,22 @@ ROS 2 (Robot Operating System 2) es un marco de trabajo (middleware) distribuido
 
 1. Introduccion
 1. Contenido
+
+## En el robot
+
+1. Instalar 
+
+```console
+python3 -m pip install --upgrade pip setuptools wheel Adafruit_SSD1306
+```
+
+2. Instalar dependencias
+```console
+sudo apt-get install -y python3-dev libjpeg-dev zlib1g-dev libjpeg8-dev libtiff5-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python3-tk libharfbuzz-dev libfribidi-dev libxcb1-dev
+```
+3. Instalar Pillow
+```console
+python3 -m pip install --user Pillow
+```
+3. 
+
