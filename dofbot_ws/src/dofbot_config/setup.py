@@ -1,4 +1,8 @@
 from setuptools import find_packages, setup
+# Para agrgar mas carpetas o folders, archivos y otros elementos necesarios
+# para la ejecusion del paquete se agrega la libreria del SO
+import os
+from glob import glob
 
 package_name = 'dofbot_config'
 
@@ -10,6 +14,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name), glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
