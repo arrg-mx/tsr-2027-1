@@ -27,7 +27,8 @@ setup(
             'publicador_py = primer_py.primer_nodo:main',
             'ejemplo_1_py = primer_py.ejemplo_1:main',
             'ejemplo_2_py = primer_py.ejemplo_2:main',
-            'subcriptor_py = primer_py.subcriptor:main'
+            'subcriptor_py = primer_py.subcriptor:main',
+            'control_node_robot = primer_py.control_robot:main'
         ],
     },
 )
