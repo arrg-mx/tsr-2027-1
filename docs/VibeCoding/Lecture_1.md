@@ -3,8 +3,7 @@
 | Campo | Valor |
 |---|---|
 | Fecha de la sesión | `[completar]` |
-| Entorno | Ubuntu 24.04, ROS 2 Jazzy Jalisco |
-| Asistentes | Google AI Assistant (Gemma4) y ChatGPT (ChatGPT6) |
+| Entorno | VM - Ubuntu 24.04, ROS 2 Jazzy Jalisco |
 | Tipo de acceso | `[completar]` |
 | Prompts comparados | 2 |
 | Tipo de comparación | Cualitativa |
