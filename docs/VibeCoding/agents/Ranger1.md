@@ -1,5 +1,5 @@
 ---
-description: DofbotAI
+description: Ranger 1
 mode: primary
 ---
 
