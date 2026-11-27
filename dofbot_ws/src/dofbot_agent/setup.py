@@ -24,7 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'ai_agent = dofbot_agent.ai_agent:main'
+            'ai_agent = dofbot_agent.ai_agent:init_node',
+            'agent_action_srv = dofbot_agent.ai_agent_action_srv:init_node',
+            'agent_action_client = dofbot_agent.dofbot_agent_client:init_node'
         ],
     },
 )

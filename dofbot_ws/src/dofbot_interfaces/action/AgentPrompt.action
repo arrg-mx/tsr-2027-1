@@ -1,0 +1,11 @@
+# Goal
+string prompt
+string session_id
+---
+# Result
+string response
+bool success
+---
+# Feedback
+string status
+string thinking

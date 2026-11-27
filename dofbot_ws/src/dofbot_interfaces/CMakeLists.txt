@@ -19,6 +19,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Telemetry.msg"
   "msg/SnapShot.msg"
   "srv/GetStatus.srv"
+  "srv/ClearSession.srv"
+  "action/AgentPrompt.action"
   # Dependenias de otros mensajes que esten incluidos en el mensaje
   #  personalizado a generar
   DEPENDENCIES geometry_msgs
